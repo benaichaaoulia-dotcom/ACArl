@@ -1,0 +1,178 @@
+# ============================================================================
+# DATASETS AND DATA - DO NOT PUSH
+# ============================================================================
+data/
+logs_*/
+outputs/
+Task02_Heart/
+Task02_Heart.tar
+BRATS_Dataset/
+brats_dataset/
+# Keep preprocessing modules, ignore data files:
+brats/*.jpg
+brats/*.png
+brats/*.nii*
+brats/splits/
+kits/*.jpg
+kits/*.png
+kits/*.nii*
+kits/splits/
+lits/*.jpg
+lits/*.png
+lits/*.nii*
+lits/splits/
+samus/*.jpg
+samus/*.png
+samus/*.nii*
+samus/splits/
+benchmark/
+*.tar
+*.tar.gz
+*.nii
+*.nii.gz
+*.zip
+dataset.zip
+*_preprocessed/
+kits_preprocessed/
+lits_preprocessed/
+lits_kaggle_preprocessed/
+
+# ============================================================================
+# CHECKPOINTS AND MODELS - DO NOT PUSH (large binary files)
+# ============================================================================
+checkpoints/
+logs/
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.h5
+model_*.pt
+*_checkpoint.*
+*.pkl
+*.pickle
+
+# ============================================================================
+# EXPERIMENTAL RESULTS - DO NOT PUSH
+# ============================================================================
+results/
+result_*/
+experiment_*/
+test_results/
+eval_results/
+*.csv
+
+# ============================================================================
+# GENERATED OUTPUTS - DO NOT PUSH
+# ============================================================================
+generated/
+pseudo_labels/
+confidence_maps/
+*.png
+*.jpg
+*.jpeg
+convergence_*.png
+*_convergence.png
+
+# ============================================================================
+# BUILD AND CACHE - STANDARD IGNORES
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================================================
+# VIRTUAL ENVIRONMENTS
+# ============================================================================
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# ============================================================================
+# IDE AND EDITOR
+# ============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ============================================================================
+# TESTING
+# ============================================================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ============================================================================
+# TENSORBOARD AND LOGGING
+# ============================================================================
+.tensorboard/
+runs/
+events.out.tfevents.*
+ablation_blocks_main.log
+ablation_*.log
+train_stage*.log
+
+# ============================================================================
+# EXPERIMENTAL AND DETAILED DOCUMENTATION - DO NOT PUSH
+# ============================================================================
+ACARL_IMPLEMENTATION.md
+README_ACArL.md
+method.md
+improvement.md
+ablation.md
+method_simplified.md
+
+# ============================================================================
+# ANALYSIS AND VISUALIZATION SCRIPTS - DO NOT PUSH
+# ============================================================================
+plot_*.py
+analyze_*.py
+generate_*.py
+*_convergence.py
+find_*.py
+show_*.py
+create_*.py
+debug_*.py
+compare_*.py
+recreate_*.py
+fix_*.py
+
+# ============================================================================
+# TEMPORARY FILES
+# ============================================================================
+*.tmp
+*.temp
+.tmp/
+*.bak
+*.swp
+*~
+.cache/
