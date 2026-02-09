@@ -15,14 +15,6 @@ test_mask_metadata.json
 README_OLD.md
 check_git_files.py
 preprocess_flat_brats.py
-
-# ============================================================================
-# ACArL IMPLEMENTATION - HIDDEN UNTIL PAPER PUBLICATION
-# ============================================================================
-train.py
-train_unet_acarl.py
-lab_gen_acarl.py
-samus/modeling/acarl.py
 # Keep preprocessing modules, ignore data files:
 brats/*.jpg
 brats/*.png

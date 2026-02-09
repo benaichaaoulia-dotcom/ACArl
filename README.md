@@ -13,18 +13,12 @@ WeakMedSAM leverages SAM's zero-shot segmentation capabilities to generate pseud
 ## Key Components
 
 ```
-├── train.py                    # ACArL training on SAM features
-├── lab_gen_acarl.py           # Pseudo-label generation with ACArL
-├── train_unet_acarl.py        # U-Net training with confidence weighting
-├── eval.py                    # Evaluation metrics
-├── cluster.py                 # K-means pre-clustering
-│
-├── samus/                     # SAM-based model
-│   └── modeling/acarl.py      # ACArL module implementation
 ├── unet/                      # U-Net segmentation model
 ├── brats/, kits/, lits/      # Dataset preprocessing modules
 └── utils/                     # Utility functions
 ```
+
+**Note:** Core ACArL implementation files (`train.py`, `train_unet_acarl.py`, `lab_gen_acarl.py`, `samus/modeling/acarl.py`) will be released upon completion of the associated research paper. Please contact the authors for access or wait for the paper publication.
 
 ## Installation
 
