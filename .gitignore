@@ -8,6 +8,12 @@ Task02_Heart/
 Task02_Heart.tar
 BRATS_Dataset/
 brats_dataset/
+# Shell scripts - experiment runners
+*.sh
+test_train_small.py
+test_mask_metadata.json
+README_OLD.md
+check_git_files.py
 # Keep preprocessing modules, ignore data files:
 brats/*.jpg
 brats/*.png
