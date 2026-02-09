@@ -14,6 +14,7 @@ test_train_small.py
 test_mask_metadata.json
 README_OLD.md
 check_git_files.py
+preprocess_flat_brats.py
 # Keep preprocessing modules, ignore data files:
 brats/*.jpg
 brats/*.png
